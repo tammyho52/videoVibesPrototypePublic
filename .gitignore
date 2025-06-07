@@ -1,0 +1,37 @@
+# Build artifacts and intermediate files
+build/
+DerivedData/
+*.o
+*.out
+*.exe
+
+# Xcode specific files to ignore
+*.xcuserstate
+*.xcworkspace
+*.xcuserdata
+*.hmap
+*.xcodeproj/project.xcworkspace/
+
+# CocoaPods
+Pods/
+
+# Environment files (often contain secrets)
+.env
+.env.*
+
+# macOS system files
+.DS_Store
+
+# IDE/editor files
+.idea/
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Import/export files (e.g., Xcode export or archive)
+*.xcarchive
+*.ipa
+*.xcconfig
+
