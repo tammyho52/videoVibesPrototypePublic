@@ -38,7 +38,7 @@ This is a prototype app for skill demonstration purposes and is not a production
 
 ## Architecture Overview
 - This is a fully programmatic UIKit-based app. 
-- The app follows a Model-View-ViewModel (MVVM) architecture with Services and Utilities for better separation of concerns and maintainability.
+- The app follows a Model-View-ViewModel with Coordinator (MVVM-C) architecture with Services and Utilities for better separation of concerns and maintainability.
 - The Coordinator pattern is used for navigation management, ensuring a clean separation of navigation logic from view controllers.
 - Dependency injection and protocol-oriented design are employed to facilitate testing and maintainability.
 - Combine is used extensively for reactive state management and data binding between View Models and View Controllers. 
